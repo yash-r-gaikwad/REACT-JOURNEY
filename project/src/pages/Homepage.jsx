@@ -17,14 +17,14 @@ export const Homepage = () => {
     <div>
     <TopHeader />
     <Row className='justify-content-center'>
-    <Col xs={3} md={3}>
-<Image style={{width:400}} src="https://detailmd.com/images/buy-now.webp"  />  
+    <Col xs={12} md={3}>
+<Image width={400} className='img-fluid' src="https://detailmd.com/images/buy-now.webp"  />  
 </Col>
-<Col xs={4} md={3}>
-<Image style={{width:400}} src="https://detailmd.com/images/buy-now.webp"  />  
+<Col xs={12} md={3}>
+<Image width={400} className='img-fluid' src="https://detailmd.com/images/buy-now.webp"  />  
 </Col>
-<Col xs={4} md={3}>
-<Image style={{width:400}} src="https://detailmd.com/images/buy-now.webp"  />  
+<Col xs={12} md={3}>
+<Image width={400} className='img-fluid'src="https://detailmd.com/images/buy-now.webp"  />  
 </Col>
 
 <Col>

@@ -9,7 +9,7 @@ export const TopHeader = () => {
   return (
  <header>
          <Navbar collapseOnSelect expand="md" bg="dark" data-bs-theme="dark">
-        <Container className='justify-content-center'>
+        <Container >
         <Link className='nav-link'  to="/home">
           <Navbar.Brand >Project</Navbar.Brand>
           </Link>
