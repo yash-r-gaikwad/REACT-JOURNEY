@@ -32,7 +32,7 @@ searchMovies('Batman');
       <Container>
       <Row className='justify-content-center m-lg-2'>
 
-        <Col lg={4} xs={10}>
+        <Col lg={4} md={12} xs={10}>
         <input className='m-3' placeholder='Enter movie name' value={searchTerm} onChange={(e)=>setSearchTerm(e.target.value)} type="text" />
 
         <Button className='' onClick={()=>searchMovies(searchTerm)}>Enter</Button>
@@ -53,7 +53,7 @@ searchMovies('Batman');
       { movies ? movies.map((movie)=> {
           
           return  <>  
-           <Col xs={10} md={2}>
+           <Col xs={10} lg={2} md={4}>
           <Card className='m-2'>
             <Card.Img variant="top" src={movie.Poster} />
             <Card.Body>
@@ -68,7 +68,7 @@ searchMovies('Batman');
           </Col>
 
           </>
-        }) : <h1>Movies not found</h1>
+        }) : <h1 className='text-center'>Movies not found</h1>
       }
         
       </Row>

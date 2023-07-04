@@ -17,17 +17,17 @@ export const Homepage = () => {
     <div>
     <TopHeader />
     <Row className='justify-content-center'>
-    <Col xs={12} md={3}>
+    <Col xs={12} md={4}>
 <Image width={400} className='img-fluid' src="https://detailmd.com/images/buy-now.webp"  />  
 </Col>
-<Col xs={12} md={3}>
+<Col xs={12} md={4}>
 <Image width={400} className='img-fluid' src="https://detailmd.com/images/buy-now.webp"  />  
 </Col>
-<Col xs={12} md={3}>
+<Col xs={12} md={4}>
 <Image width={400} className='img-fluid'src="https://detailmd.com/images/buy-now.webp"  />  
 </Col>
 
-<Col>
+<Col lg={4}>
 <button onClick={()=> setNumber(number + 1)}>Click to add</button>
 <button onClick={()=> setNumber(number - 1)}>Click to subtract</button>
 <h2>You clicked {number} times</h2>
