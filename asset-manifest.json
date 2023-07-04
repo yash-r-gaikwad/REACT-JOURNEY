@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/REACT-JOURNEY/static/css/main.d20202a4.css",
+    "main.js": "/REACT-JOURNEY/static/js/main.3f09cbec.js",
+    "index.html": "/REACT-JOURNEY/index.html",
+    "main.d20202a4.css.map": "/REACT-JOURNEY/static/css/main.d20202a4.css.map",
+    "main.3f09cbec.js.map": "/REACT-JOURNEY/static/js/main.3f09cbec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d20202a4.css",
+    "static/js/main.3f09cbec.js"
+  ]
+}
