@@ -7,11 +7,11 @@ import Pricing from './pages/Pricing';
 
 
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Homepage />,
