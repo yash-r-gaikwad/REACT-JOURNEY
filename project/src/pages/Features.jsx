@@ -59,7 +59,7 @@ searchMovies('Batman');
             <Card.Body>
               <Card.Title>{movie.Title}</Card.Title>
               <Card.Text>
-              {movie.Plot}
+              {movie.Year}
               </Card.Text>
             </Card.Body>
           </Card>
