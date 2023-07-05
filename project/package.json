@@ -2,7 +2,7 @@
   "name": "project",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://yash-r-gaikwad.github.io/REACT-JOURNEY",
+  "homepage": ".",
   "proxy": "http://localhost:3000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
