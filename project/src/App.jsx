@@ -1,9 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TopHeader from './components/TopHeader';
 import Homepage from './pages/Homepage';
 import Features from './pages/Features';
 import Pricing from './pages/Pricing';
+import Todos from "./pages/Todos";
 
 
 import {
@@ -29,6 +29,11 @@ const router = createHashRouter([
     path: "/pricing",
     element: <Pricing />,
   },
+
+  {
+    path: "/todos",
+    element: <Todos />
+  }
 
 ]);
 

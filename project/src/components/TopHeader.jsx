@@ -27,6 +27,10 @@ export const TopHeader = () => {
            Pricing
             </Link>
 
+            <Link className='nav-link' to="/todos">
+            Todos
+            </Link>
+
           </Nav>
           </Navbar.Collapse>
         </Container>

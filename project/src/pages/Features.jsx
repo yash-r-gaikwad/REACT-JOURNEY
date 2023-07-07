@@ -21,6 +21,9 @@ export const Features = () => {
     console.log(movies)
   }
 
+
+
+
   useEffect (()=>{
 searchMovies('Batman');
   }, [])
